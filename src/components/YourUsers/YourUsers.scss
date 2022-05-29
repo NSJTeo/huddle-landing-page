@@ -1,0 +1,10 @@
+@use '../GrowTogether/GrowTogether.scss';
+
+.your-users {
+  &__header {
+    @extend .grow-together__header;
+  }
+  &__text {
+    @extend .grow-together__text;
+  }
+}

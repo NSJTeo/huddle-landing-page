@@ -4,6 +4,7 @@ import {
   Header,
   Hero,
   Stats,
+  YourUsers,
 } from './components';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Stats />
         <GrowTogether />
         <FlowingConversations />
+        <YourUsers />
       </main>
     </>
   );
