@@ -4,5 +4,5 @@ import backgroundTop from '../assets/backgrounds/bg-section-top-mobile-1.svg';
 export const GrowTogetherBackgroundImageTop = styled.div`
   background: url(${backgroundTop});
   height: 180px;
-  object-fit: cover;
+  background-size: 100% 180px;
 `;

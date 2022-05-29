@@ -18,3 +18,4 @@ export { StatsMessagesText } from './StatsMessagesText';
 export { GrowTogetherBody } from './GrowTogetherBody';
 export { GrowTogetherImage } from './GrowTogetherImage';
 export { GrowTogetherBackgroundImageTop } from './GrowTogetherBackgroundImageTop';
+export { GrowTogetherBackgroundImageBottom } from './GrowTogetherBackgroundImageBottom';
