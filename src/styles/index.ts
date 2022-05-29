@@ -1,5 +1,7 @@
 export { GlobalStyles } from './GlobalStyles';
 export { HeaderContainer } from './HeaderContainer';
+export { HeaderLogo } from './HeaderLogo';
+export { HeaderButton } from './HeaderButton';
 export { HeroHeader } from './HeroHeader';
 export { HeroText } from './HeroText';
 export { HeroButton } from './HeroButton';
