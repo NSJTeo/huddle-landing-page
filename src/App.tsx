@@ -1,5 +1,14 @@
+import { Header, Hero } from './components';
+
 function App() {
-  return null;
+  return (
+    <>
+      <Header />
+      <main>
+        <Hero />
+      </main>
+    </>
+  );
 }
 
 export default App;
