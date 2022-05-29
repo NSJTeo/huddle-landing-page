@@ -1,6 +1,29 @@
 .grow-together {
   &__container {
-    margin-bottom: 67px;
+    margin-bottom: 120px;
+  }
+  &__background-image {
+    &--top {
+      background-image: url('../../assets/backgrounds/bg-section-top-mobile-1.svg');
+      height: 180px;
+      background-size: 100% 180px;
+    }
+    &--bottom {
+      background-image: url('../../assets/backgrounds/bg-section-bottom-mobile-1.svg');
+      height: 133px;
+      background-size: 100% 133px;
+    }
+  }
+  &__body {
+    background: #f6fbff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__illustration {
+    margin: 0 48px;
+    margin-bottom: 40px;
+    max-width: calc(100% - 48px - 48px);
   }
   &__header {
     margin-bottom: 1rem;
