@@ -4,11 +4,13 @@ import flowingConversationsIllustration from '../../assets/illustrations/illustr
 export const FlowingConversations = () => {
   return (
     <div className="flowing-conversations__container">
-      <img
-        className="flowing-conversations__illustration"
-        src={flowingConversationsIllustration}
-        alt=""
-      />
+      <div className="flowing-conversations__illustration-container">
+        <img
+          className="flowing-conversations__illustration"
+          src={flowingConversationsIllustration}
+          alt=""
+        />
+      </div>
       <h3 className="flowing-conversations__header">Flowing Conversations</h3>
       <p className="flowing-conversations__text">
         You wouldn't paginate a conversation in real life, so why do it online?

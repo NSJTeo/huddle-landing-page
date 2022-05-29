@@ -8,8 +8,15 @@
     flex-direction: column;
     align-items: center;
   }
-  &__illustration {
+  &__illustration-container {
     max-width: calc(100% - 28px - 28px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  &__illustration {
+    width: 265.5px;
   }
   &__header {
     @extend .grow-together__header;

@@ -6,11 +6,13 @@ export const GrowTogether = () => {
     <div className="grow-together__container">
       <div className="grow-together__background-image--top" />
       <div className="grow-together__body">
-        <img
-          className="grow-together__illustration"
-          src={growingTogetherIllustration}
-          alt=""
-        />
+        <div className="grow-together__illustration-container">
+          <img
+            className="grow-together__illustration"
+            src={growingTogetherIllustration}
+            alt=""
+          />
+        </div>
         <h3 className="grow-together__header">Grow Together</h3>
         <p className="grow-together__text">
           Generate meaningful discussions with your audience and build a strong,

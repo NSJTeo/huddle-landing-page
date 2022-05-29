@@ -20,10 +20,16 @@
     flex-direction: column;
     align-items: center;
   }
-  &__illustration {
+  &__illustration-container {
     margin: 0 48px;
     margin-bottom: 40px;
     max-width: calc(100% - 48px - 48px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__illustration {
+    width: 267px;
   }
   &__header {
     margin-bottom: 1rem;

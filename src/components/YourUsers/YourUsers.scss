@@ -1,6 +1,30 @@
 @use '../GrowTogether/GrowTogether.scss';
 
 .your-users {
+  &__container {
+    margin-bottom: 273px;
+  }
+  &__background-image {
+    &--top {
+      background-image: url('../../assets/backgrounds/bg-section-top-mobile-2.svg');
+      height: 103px;
+      background-size: 100% 103px;
+    }
+    &--bottom {
+      background-image: url('../../assets/backgrounds/bg-section-bottom-mobile-2.svg');
+      height: 101px;
+      background-size: 100% 101px;
+    }
+  }
+  &__body {
+    @extend .grow-together__body;
+  }
+  &__illustration-container {
+    @extend .grow-together__illustration-container;
+  }
+  &__illustration {
+    @extend .grow-together__illustration;
+  }
   &__header {
     @extend .grow-together__header;
   }
