@@ -2,10 +2,10 @@ import {
   HeroHeader as Header,
   HeroContainer as Container,
   HeroText as Text,
-  HeroButton as Button,
   HeroImage as Image,
-} from '../styles';
-import screenMockupsImage from '../assets/misc/screen-mockups.svg';
+} from '../../styles';
+import screenMockupsImage from '../../assets/misc/screen-mockups.svg';
+import './Hero.scss';
 
 export const Hero = () => {
   return (
@@ -16,7 +16,7 @@ export const Hero = () => {
         so does your audience. Create connections with your users as you engage
         in genuine discussion.
       </Text>
-      <Button>Get Started For Free</Button>
+      <button className="hero__button">Get Started For Free</button>
       <Image src={screenMockupsImage} />
     </Container>
   );

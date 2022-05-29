@@ -1,4 +1,5 @@
 import {
+  CallToAction,
   FlowingConversations,
   GrowTogether,
   Header,
@@ -17,6 +18,7 @@ function App() {
         <GrowTogether />
         <FlowingConversations />
         <YourUsers />
+        <CallToAction />
       </main>
     </>
   );
