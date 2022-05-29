@@ -6,4 +6,8 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
   }
+
+  img {
+    display: block;
+  }
 `;

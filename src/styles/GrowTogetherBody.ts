@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-export const StatsContainer = styled.div`
-  margin: 0 108px;
+export const GrowTogetherBody = styled.div`
+  background: #f6fbff;
   display: flex;
   flex-direction: column;
   align-items: center;

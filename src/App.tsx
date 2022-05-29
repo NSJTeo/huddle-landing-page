@@ -1,4 +1,4 @@
-import { Header, Hero, Stats } from './components';
+import { GrowTogether, Header, Hero, Stats } from './components';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <main>
         <Hero />
         <Stats />
+        <GrowTogether />
       </main>
     </>
   );
