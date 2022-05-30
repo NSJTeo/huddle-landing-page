@@ -5,3 +5,5 @@ export { GrowTogether } from './GrowTogether';
 export { FlowingConversations } from './FlowingConversations';
 export { YourUsers } from './YourUsers';
 export { CallToAction } from './CallToAction';
+export { NewsletterSignUp } from './NewsletterSignUp';
+export { Contact } from './Contact';

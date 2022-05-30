@@ -1,0 +1,35 @@
+.contact {
+  &__logo {
+    margin-bottom: 1rem;
+    width: 200px;
+  }
+  &__text {
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  &__phone-email-container {
+    margin-bottom: 1rem;
+    display: flex;
+    &:last-child {
+      margin: 0;
+    }
+  }
+  &__phone-email-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+  }
+  &__phone-email {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}

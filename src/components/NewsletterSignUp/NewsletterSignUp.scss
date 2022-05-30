@@ -1,0 +1,47 @@
+.newsletter-sign-up {
+  &__container {
+    margin-bottom: 104px;
+  }
+  &__header {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  &__text {
+    margin-bottom: 2rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  &__form-input {
+    background: #ffffff;
+    height: 48px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 1rem;
+  }
+  &__form-button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #ff52c1;
+    border-radius: 5px;
+    border: none;
+    width: 160px;
+    height: 48px;
+    align-self: flex-end;
+  }
+}

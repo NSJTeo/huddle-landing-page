@@ -1,0 +1,12 @@
+.footer {
+  &__background-image {
+    background-image: url('./assets/backgrounds/bg-footer-top-mobile.svg');
+    background-size: 100% 109px;
+    height: 109px;
+  }
+  &__content {
+    background: #00252e;
+    padding: 0 28px;
+    padding-bottom: 46px;
+  }
+}
