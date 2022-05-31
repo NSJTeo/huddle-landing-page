@@ -20,7 +20,9 @@ export const GrowTogether = () => {
           with a feedback form.
         </p>
       </div>
-      <div className="grow-together__background-image--bottom" />
+      <div className="grow-together__background-image-container">
+        <div className="grow-together__background-image--bottom" />
+      </div>
     </div>
   );
 };

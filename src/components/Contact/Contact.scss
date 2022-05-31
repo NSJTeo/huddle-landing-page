@@ -15,8 +15,8 @@
   &__phone-email-container {
     margin-bottom: 1rem;
     display: flex;
-    &:last-child {
-      margin: 0;
+    &--last {
+      margin-bottom: 48px;
     }
   }
   &__phone-email-icon {
@@ -31,5 +31,16 @@
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
+  }
+  &__social-media-icons {
+    display: flex;
+  }
+  &__social-media-icon {
+    height: 23px;
+    width: auto;
+    margin-right: 1rem;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 }

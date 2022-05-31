@@ -20,7 +20,9 @@ export const YourUsers = () => {
           users can start chatting immediately.
         </p>
       </div>
-      <div className="your-users__background-image--bottom" />
+      <div className="your-users__background-image-container">
+        <div className="your-users__background-image--bottom" />
+      </div>
     </div>
   );
 };

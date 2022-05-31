@@ -1,6 +1,9 @@
 .grow-together {
   &__container {
-    margin-bottom: 120px;
+    margin-bottom: 200px;
+  }
+  &__background-image-container {
+    position: relative;
   }
   &__background-image {
     &--top {
@@ -9,8 +12,10 @@
       background-size: 100% 180px;
     }
     &--bottom {
+      position: absolute;
       background-image: url('../../assets/backgrounds/bg-section-bottom-mobile-1.svg');
       height: 133px;
+      width: 100%;
       background-size: 100% 133px;
     }
   }

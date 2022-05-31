@@ -2,7 +2,10 @@
 
 .your-users {
   &__container {
-    margin-bottom: 273px;
+    margin-bottom: 280px;
+  }
+  &__background-image-container {
+    @extend .grow-together__background-image-container;
   }
   &__background-image {
     &--top {
@@ -11,8 +14,10 @@
       background-size: 100% 103px;
     }
     &--bottom {
+      position: absolute;
       background-image: url('../../assets/backgrounds/bg-section-bottom-mobile-2.svg');
       height: 101px;
+      width: 100%;
       background-size: 100% 101px;
     }
   }
