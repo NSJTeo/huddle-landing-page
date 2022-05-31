@@ -2,7 +2,13 @@
 
 .your-users {
   &__container {
-    margin-bottom: 280px;
+    @extend .grow-together__container;
+    @media (min-width: 1024px) {
+      margin-bottom: 258px;
+    }
+  }
+  &__inner-container {
+    @extend .grow-together__inner-container;
   }
   &__background-image-container {
     @extend .grow-together__background-image-container;

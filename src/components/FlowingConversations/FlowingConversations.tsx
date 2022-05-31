@@ -11,11 +11,13 @@ export const FlowingConversations = () => {
           alt=""
         />
       </div>
-      <h3 className="flowing-conversations__header">Flowing Conversations</h3>
-      <p className="flowing-conversations__text">
-        You wouldn't paginate a conversation in real life, so why do it online?
-        Our threads have just-in-time loading for a more natural flow.
-      </p>
+      <div>
+        <h3 className="flowing-conversations__header">Flowing Conversations</h3>
+        <p className="flowing-conversations__text">
+          You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural flow.
+        </p>
+      </div>
     </div>
   );
 };

@@ -10,4 +10,10 @@ export const GlobalStyles = createGlobalStyle`
   img {
     display: block;
   }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
