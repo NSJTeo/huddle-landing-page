@@ -1,0 +1,47 @@
+.header {
+  &__container {
+    max-width: 1440px;
+    padding: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 112px;
+    display: flex;
+    justify-content: space-between;
+    @media (min-width: 600px) {
+      margin-bottom: 225px;
+      padding: 78px 63px 0 80px;
+    }
+  }
+  &__logo {
+    height: 1rem;
+    @media (min-width: 600px) {
+      height: 38px;
+    }
+  }
+  &__button {
+    width: 80px;
+    height: 23.53px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.41177px;
+    line-height: 13px;
+    color: #ff52c1;
+    background: #ffffff;
+    border: 0.588235px solid #ff52c1;
+    box-shadow: 0px 0px 5px rgba(255, 82, 193, 0.218778);
+    border-radius: 11.7647px;
+    &:active {
+      color: #ff8ed7;
+      border-color: #ff8ed7;
+    }
+    @media (min-width: 600px) {
+      width: 136px;
+      height: 40px;
+      font-size: 16px;
+      line-height: 22px;
+      border: 1px solid #ff52c1;
+      box-shadow: 0px 0px 9px rgba(255, 82, 193, 0.218778);
+      border-radius: 20px;
+    }
+  }
+}
