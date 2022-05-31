@@ -13,12 +13,14 @@ export const YourUsers = () => {
             alt=""
           />
         </div>
-        <h3 className="your-users__header">Your Users</h3>
-        <p className="your-users__text">
-          It takes no time at all to integrate Huddle with your app's
-          authentication solution. This means, once signed in to your app, your
-          users can start chatting immediately.
-        </p>
+        <div>
+          <h3 className="your-users__header">Your Users</h3>
+          <p className="your-users__text">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
       </div>
       <div className="your-users__background-image-container">
         <div className="your-users__background-image--bottom" />

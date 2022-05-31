@@ -13,12 +13,14 @@ export const GrowTogether = () => {
             alt=""
           />
         </div>
-        <h3 className="grow-together__header">Grow Together</h3>
-        <p className="grow-together__text">
-          Generate meaningful discussions with your audience and build a strong,
-          loyal community. Think of the insightful conversations you miss out on
-          with a feedback form.
-        </p>
+        <div>
+          <h3 className="grow-together__header">Grow Together</h3>
+          <p className="grow-together__text">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
       </div>
       <div className="grow-together__background-image-container">
         <div className="grow-together__background-image--bottom" />
