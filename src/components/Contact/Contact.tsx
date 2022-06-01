@@ -8,7 +8,7 @@ import twitterIcon from '../../assets/icons/icon-twitter.svg';
 
 export const Contact = () => {
   return (
-    <div>
+    <div className="contact__container">
       <img className="contact__logo" src={logoWhite} alt="" />
       <p className="contact__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla

@@ -22,6 +22,11 @@
       background-image: url('../../assets/backgrounds/bg-section-top-mobile-1.svg');
       height: 180px;
       background-size: 100% 180px;
+      @media (min-width: 1024px) {
+        background-image: url('../../assets/backgrounds/bg-section-top-desktop-1.svg');
+        height: 165px;
+        background-size: 100% 165px;
+      }
     }
     &--bottom {
       position: absolute;
@@ -29,6 +34,11 @@
       height: 133px;
       width: 100%;
       background-size: 100% 133px;
+      @media (min-width: 1024px) {
+        background-image: url('../../assets/backgrounds/bg-section-bottom-desktop-1.svg');
+        height: 116px;
+        background-size: 100% 116px;
+      }
     }
   }
   &__body {

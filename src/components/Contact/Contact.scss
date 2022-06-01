@@ -1,7 +1,16 @@
 .contact {
+  &__container {
+    @media (min-width: 1200px) {
+      max-width: 340px;
+    }
+  }
   &__logo {
     margin-bottom: 1rem;
     width: 200px;
+    @media (min-width: 1200px) {
+      max-width: 340px;
+      margin-bottom: 28px;
+    }
   }
   &__text {
     margin-bottom: 40px;
@@ -11,12 +20,18 @@
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
+    @media (min-width: 1200px) {
+      margin-bottom: 24px;
+    }
   }
   &__phone-email-container {
     margin-bottom: 1rem;
     display: flex;
     &--last {
       margin-bottom: 48px;
+      @media (min-width: 1200px) {
+        margin-bottom: 80px;
+      }
     }
   }
   &__phone-email-icon {
@@ -31,6 +46,10 @@
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
+    @media (min-width: 1200px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
   &__social-media-icons {
     display: flex;
@@ -39,6 +58,10 @@
     height: 23px;
     width: auto;
     margin-right: 1rem;
+    @media (min-width: 1200px) {
+      height: 32px;
+      margin-right: 24px;
+    }
     &:last-child {
       margin-right: 0;
     }

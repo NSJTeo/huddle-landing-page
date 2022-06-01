@@ -1,6 +1,10 @@
 .newsletter-sign-up {
   &__container {
     margin-bottom: 104px;
+    @media (min-width: 1200px) {
+      max-width: 520px;
+      width: 100%;
+    }
   }
   &__header {
     margin-bottom: 1rem;
@@ -10,6 +14,10 @@
     font-size: 20px;
     line-height: 30px;
     color: #ffffff;
+    @media (min-width: 1200px) {
+      font-size: 24px;
+      line-height: 36px;
+    }
   }
   &__text {
     margin-bottom: 2rem;
@@ -19,10 +27,17 @@
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
+    @media (min-width: 1200px) {
+      margin-bottom: 40px;
+      max-width: 344px;
+    }
   }
   &__form {
     display: flex;
     flex-direction: column;
+    @media (min-width: 1200px) {
+      flex-direction: row;
+    }
   }
   &__form-input {
     background: #ffffff;
@@ -30,6 +45,11 @@
     border-radius: 6px;
     border: none;
     margin-bottom: 1rem;
+    @media (min-width: 1200px) {
+      margin-bottom: 0;
+      margin-right: 40px;
+      flex-grow: 1;
+    }
   }
   &__form-button {
     font-family: 'Open Sans';
