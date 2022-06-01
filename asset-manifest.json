@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/huddle-landing-page/static/css/main.7c081502.css",
+    "main.css": "/huddle-landing-page/static/css/main.9510546a.css",
     "main.js": "/huddle-landing-page/static/js/main.eb85036f.js",
     "static/media/OpenSans-Regular.woff": "/huddle-landing-page/static/media/OpenSans-Regular.6c5acfa99c83633bb078.woff",
     "static/media/OpenSans-SemiBold.woff": "/huddle-landing-page/static/media/OpenSans-SemiBold.ad9bc43d5d0309e8bd2e.woff",
@@ -33,11 +33,11 @@
     "static/media/icon-phone.svg": "/huddle-landing-page/static/media/icon-phone.b85572680e531bcb351c52500ab98420.svg",
     "static/media/bg-footer-top-mobile.svg": "/huddle-landing-page/static/media/bg-footer-top-mobile.c940267b0f9e81dab354.svg",
     "static/media/icon-email.svg": "/huddle-landing-page/static/media/icon-email.201ea9e2e87effbe720d0f8b77fba022.svg",
-    "main.7c081502.css.map": "/huddle-landing-page/static/css/main.7c081502.css.map",
+    "main.9510546a.css.map": "/huddle-landing-page/static/css/main.9510546a.css.map",
     "main.eb85036f.js.map": "/huddle-landing-page/static/js/main.eb85036f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c081502.css",
+    "static/css/main.9510546a.css",
     "static/js/main.eb85036f.js"
   ]
 }
