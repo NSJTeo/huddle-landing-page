@@ -27,8 +27,8 @@
     @media (min-width: 1280px) {
       top: 1rem;
       // double check this
-      width: 56px;
       height: 56px;
+      width: auto;
     }
   }
   &__communities-count {
@@ -63,8 +63,8 @@
     @media (min-width: 1280px) {
       top: 1rem;
       // double check this
-      width: 56px;
       height: 56px;
+      width: auto;
     }
   }
   &__messages-count {
