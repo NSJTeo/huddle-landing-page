@@ -24,10 +24,12 @@ function App() {
         <CallToAction />
       </main>
       <footer>
-        <div className="footer__background-image"></div>
-        <div className="footer__content">
-          <NewsletterSignUp />
-          <Contact />
+        <div className="footer__background-image" />
+        <div className="footer__background">
+          <div className="footer__content">
+            <NewsletterSignUp />
+            <Contact />
+          </div>
         </div>
       </footer>
     </>

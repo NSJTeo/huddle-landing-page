@@ -1,4 +1,11 @@
 .footer {
+  &__background {
+    background: #00252e;
+    @media (min-width: 1200px) {
+      display: flex;
+      justify-content: center;
+    }
+  }
   &__background-image {
     background-image: url('./assets/backgrounds/bg-footer-top-mobile.svg');
     background-size: 100% 109px;
@@ -9,9 +16,10 @@
     }
   }
   &__content {
-    background: #00252e;
     padding: 0 28px;
     padding-bottom: 48px;
+    max-width: 1440px;
+    width: 100%;
     @media (min-width: 1200px) {
       display: flex;
       flex-direction: row-reverse;

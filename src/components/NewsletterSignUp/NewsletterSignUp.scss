@@ -37,21 +37,16 @@
     flex-direction: column;
     @media (min-width: 1200px) {
       flex-direction: row;
+      align-items: flex-start;
     }
   }
-  &__form-input {
-    background: #ffffff;
-    height: 48px;
-    border-radius: 6px;
-    border: none;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    @media (min-width: 1200px) {
-      margin-bottom: 0;
-      margin-right: 40px;
-      flex-grow: 1;
-    }
+  &__input-error {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #ff4343;
   }
   &__form-button {
     font-family: 'Open Sans';
