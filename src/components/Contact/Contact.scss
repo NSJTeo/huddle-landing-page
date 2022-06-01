@@ -58,6 +58,14 @@
     height: 23px;
     width: auto;
     margin-right: 1rem;
+    cursor: pointer;
+    transition: filter 0.25s;
+    filter: invert(100%) sepia(7%) saturate(0%) hue-rotate(188deg)
+      brightness(105%) contrast(100%);
+    &:hover {
+      filter: invert(59%) sepia(66%) saturate(4799%) hue-rotate(161deg)
+        brightness(95%) contrast(101%);
+    }
     @media (min-width: 1200px) {
       height: 32px;
       margin-right: 24px;

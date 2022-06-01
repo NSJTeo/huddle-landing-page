@@ -66,5 +66,9 @@
     width: 160px;
     height: 48px;
     align-self: flex-end;
+    cursor: pointer;
+    &:active {
+      background: #ff8ed7;
+    }
   }
 }
